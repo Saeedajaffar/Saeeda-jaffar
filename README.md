@@ -1,52 +1,55 @@
-#  Online Gift Spot (SQL Project)
+# University Admission Eligibility & Suggestions (C++ Project)
 
-##  Description
-This project is a database system for an **Online Gift Shop**.  
-It manages customers, products, orders, payments, and order details using SQL.
+## Project Description
+This is a C++ console-based project that checks a student's eligibility for university admission based on age, marks, 
+and chosen subject. It also suggests universities depending on the subject and percentage.
 
-The goal of this project is to practice **database design, table creation, relationships, and SQL queries**.
+## Features
+- Age eligibility check (18–25 years)
+- Validates if required subjects were studied
+- Provides university suggestions for:
+  - Software Engineering / Computer Science
+  - Business
+  - English
+  - Accounting & Finance / IT / Project Management
+  - Data Science
+  - Urdu / Islamiat
+  - Mathematics
+- User-friendly console interaction
 
----
+## Tools & Technologies
+- Language: C++
+- Concepts: Functions, If-Else conditions, User input, Console output
+- Tool: Visual studio
 
-##  Database Structure
+## How to Run
+1. Save the code file as `UniversityEligibility.cpp`
+2. Open it in any C++ IDE (Dev-C++, Code::Blocks, Visual Studio, or terminal with g++)
+3. Compile and run the program
+4. Enter your details when prompted:
+   - Name
+   - Age
+   - Marks
+   - Desired subject
+   - Father's name and occupation
+   - Required subject verification (Math/Computer/English etc.)
 
-### 1. Customer Table
-- Stores customer information (Name, Email, Phone, Address).
+## Example
+Input:
+Name: Saeeda
+Age: 20
+Marks: 82
+Subject: Computer Science
+Studied Math & Computer: yes
 
-### 2. Product Table
-- Stores available gift items, categories, prices, and stock.
+Output:
+You are eligible for Computer Science.
+You can apply to:
+1. COMSATS
+2. NUST
+3. FAST-NU
+4. UET Taxila
+5. Quaid-i-Azam University
 
-### 3. Orders Table
-- Stores customer orders with date and total amount.
-
-### 4. OrderDetails Table
-- Stores details of each order (which product, quantity, price).
-
-### 5. Payment Table
-- Stores payment details including method and amount.
-
----
-
-## 🛠 Technologies Used
-- **SQL (MySQL / SQL Server compatible)**
-- Basic DDL (CREATE, INSERT) and DML queries
-
----
-
-##  How to Run
-1. Copy the `OnlineGiftSpot.sql` file from this repository.  
-2. Open **MySQL Workbench** (or any SQL client like XAMPP, phpMyAdmin, SQL Server).  
-3. Paste the code and run it.  
-4. Database and tables will be created automatically with sample data.  
-
----
-
-##  Sample Data
-- 8 Customers (like *Aaliya Khan*, *Saeeda Jaffar*, etc.)  
-- 4 Products (Chocolate Gift Box, Flower Bouquet, Perfume, Customized Mug)  
-- Multiple Orders, OrderDetails, and Payments
-
----
-
-## 👩 Author
-- Saeeda Jaffar
+## Author
+Saeeda Jaffar
